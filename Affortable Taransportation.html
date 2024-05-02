@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportation</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="hotelcss.css">
+
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link Swipper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: turquoise;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .navbar {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .navbar li {
+            margin-right: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+        }
+
+        #district-form {
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: turquoise;
+        }
+
+        select {
+            font-size: 18px;
+            padding: 8px 16px;
+            background-color: #fff;
+            color: turquoise;
+            border-radius: 10px;
+            border: 1px solid turquoise;
+            margin-bottom: 20px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: turquoise;
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00ced1;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 50px auto;
+            max-width: 800px;
+            color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="file:///C:/Users/User/Desktop/blank/travel.html" class="logo">TripTraverse</a>
+        <ul class="navbar">
+            <li><a href="file:///C:/Users/User/Desktop/blank/travel.html">Home</a></li>
+            <li><a href="file:///C:/Users/User/Desktop/blank/travel.html">Trip</a></li>
+            <li><a href="file:///C:/Users/User/Desktop/blank/hotel.html">Hotel</a></li>
+            <li><a href="file:///C:/Users/User/Desktop/blank/food.html">Food</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <p>
+        Name: Vishal V<br>
+    </p>
+
+    <!-- District Form -->
+    <div id="district-form">
+        <form>
+            <label for="district" style="font-size: 20px; color: turquoise; font-weight: bold; margin-bottom: 20px;">Pick an alternative starting point for your journey</label>
+
+
+            <select id="district" name="district">
+                <option value="Ariyalur">Ariyalur</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Ariyalur">Tiruppur</option>
+                <option value="Ariyalur">coimbatore</option>
+                <option value="Ariyalur">Erode</option>
+                <option value="Ariyalur">Selam</option>
+                <option value="Ariyalur">Kerala</option>
+                <option value="Ariyalur">Coimabatore</option>
+                <option value="Ariyalur">madurai</option>
+                <option value="Ariyalur">cuddalore</option>
+                <option value="Ariyalur">vellore</option>
+                <option value="Ariyalur">tirunelveli</option>
+                <option value="Ariyalur">tiruvannamalai</option>
+                <option value="Ariyalur">thanjavur</option>
+                <option value="Ariyalur">viluppuram</option>
+                <option value="Ariyalur">virudhunagar</option>
+                <option value="Ariyalur">trichirappalli</option>
+                <option value="Ariyalur">tirupathur</option>
+                <option value="Ariyalur">thoothukudi</option>
+                <option value="Ariyalur">thiruvarur</option>
+                <option value="Ariyalur">thiruvallur</option>
+                <option value="Ariyalur">theni</option>
+                <option value="Ariyalur">thenilgiris</option>
+                <option value="Ariyalur">tenkasi</option>
+                <option value="Ariyalur">sivagangai</option>
+                <option value="Ariyalur">ranipet</option>
+                <option value="Ariyalur">ramanathapuram</option>
+                <option value="Ariyalur">pudukottai</option>
+                <option value="Ariyalur">perambalur</option>
+                <option value="Ariyalur">namakkal</option>
+                <option value="Ariyalur">nagapattinam</option>
+                <option value="Ariyalur">mayiladuthurai</option>
+                <option value="Ariyalur">krishnagiri</option>
+                <option value="Ariyalur">kanniyakumari</option>
+                <option value="Ariyalur">kancheepuram</option>
+                <option value="Ariyalur">kallakurichi</option>
+                <option value="Ariyalur">dindigul</option>
+                <option value="Ariyalur">dharmapuri</option>
+                <!-- Add more options for other districts -->
+            </select><br><br>
+            <button type="button" onclick="redirectToDistrict()"><strong>Submit</strong></button>
+        </form>
+    </div>
+
+    <script src="main1.js"></script>
+</body>
+</html>
