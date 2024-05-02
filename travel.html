@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TripTraverse</title>
+
+<!-- Link to CSS -->
+<link rel="stylesheet" href="travel.css">
+<!-- Boxicons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<!--Link Swipper's CSS-->   
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   
+
+</head>
+
+<body>
+<!-- Navbar -->
+<header>
+    <a href="#" class="logo">TripTraverse</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+	<!--Search bar-->
+	<form id="searchForm" action="#" method="GET">
+            <div class="search">
+                <span class="search-icon material-symbols-outlined">search</span>
+                <input id="searchInput" class="search-input" type="search" placeholder="Search">
+            </div>
+            <div id="suggestions" class="suggestions"></div>
+        </form>
+		<!---->
+		
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="file:///C:/Users/User/Desktop/blank/food.html">Food</a></li>
+		<li><a href="https://www.booking.com/region/in/tamil-nadu.en.html?aid=1610833;label=tamil-nadu-fKgc62czv7JGJZsWJZ_U6QS626061308096:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-407358106540:lp9050527:li:dec:dm;ws=&gad_source=1&gclid=CjwKCAjw57exBhAsEiwAaIxaZm2nB_U9G64r2UsLfRaLRrPK9fEatewsQiNy8KmPHl-PwyYnDZi42RoCcuIQAvD_BwE">Hotels</a></li>
+	  <li><a href="#about">About</a></li>
+    </ul>
+</header>
+
+<!--Home start-->
+<section class="home swiper" id="home"> 
+
+ <div class="swiper-wrapper">
+      <div class="swiper-slide container">
+	     <img src="img/places4.jpg" alt="">
+	     <div class="home-text">
+		    <span>Discover now</span>
+			<h1>Explore the <br>Beautiful Places <br>in TamilNadu</h1>
+			<a href="file:///C:/Users/User/Desktop/blank/travel.html" class="btn">Explore</a>
+			</div>
+	  </div>
+	  
+	    <div class="swiper-slide container">
+	     <img src="img/top3.jpg" alt="">
+	     <div class="home-text">
+		    <span>Discover now</span>
+			<h1>Start to <br>Eat Amazing foods <br>in TamilNadu</h1>
+			<a href="file:///C:/Users/User/Desktop/blank/food.html" class="btn">Explore</a>
+			</div>
+	  </div>
+	  
+	  <div class="swiper-slide container">
+	     <img src="img/top2 .jpg" alt="">
+	     <div class="home-text">
+		    <span>Discover now</span>
+			<h1>Book Now <br>Lasury Hotels <br>in TamilNadu</h1>
+			<a href="https://www.booking.com/region/in/tamil-nadu.en.html?aid=1610833;label=tamil-nadu-fKgc62czv7JGJZsWJZ_U6QS626061308096:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-407358106540:lp9050527:li:dec:dm;ws=&gad_source=1&gclid=CjwKCAjw57exBhAsEiwAaIxaZm2nB_U9G64r2UsLfRaLRrPK9fEatewsQiNy8KmPHl-PwyYnDZi42RoCcuIQAvD_BwE" class="btn">Explore</a>
+			</div>
+	  </div>
+</div>
+    <div class="swiper-pagination"></div>
+</section>
+<!--Home end-->
+
+<!--Places img and about that "starts"-->
+<section class="Places" id="Places">
+      <div class="heading">
+	      <h1>Find the most <br>atractive places</h1>
+		  </div>
+		  
+		<div class="Places-container">
+		
+            <a href="file:///C:/Users/User/Desktop/blank/Salem.html" class="box-link">
+        <div class="box">
+        <div class="place-img">
+            <img src="img/same1.png" alt="">
+        </div>
+        <div class="place-text">
+            <h2>Salem</h2>
+        </div>
+        <i class='bx bxs-right-arrow-alt place-icon'></i>
+    </div>
+</a>
+
+			 
+			  <a href="file:///C:/Users/User/Desktop/blank/Chennai.html" class="box-link">
+    <div class="box">
+        <div class="place-img">
+            <img src="img/places2.jpg" alt="">
+        </div>
+        <div class="place-text">
+            <h2>Chennai</h2>
+        </div>
+        <i class='bx bxs-right-arrow-alt place-icon'></i>
+           </div>
+          </a>
+			 <a href="file:///C:/Users/User/Desktop/blank/Cuddalore.html" class="box-link">
+    <div class="box">
+        <div class="place-img">
+            <img src="img/Cuddalores.jpg" alt="">
+        </div>
+        <div class="place-text">
+            <h2>Cuddalores</h2>
+        </div>
+        <i class='bx bxs-right-arrow-alt place-icon'></i>
+           </div>
+          </a>
+			 		
+			 <a href="file:///C:/Users/User/Desktop/blank/Thanjavur.html" class="box-link">
+			 <div class="box">
+                 <div class="place-img">
+                <img src="img/thanjavur.jpg" alt="">
+                </div>
+				<div class="place-text">
+				     <h2>Thanjavur</h2>
+					 </div>
+					<i class='bx bxs-right-arrow-alt place-icon'></i>
+             </div>
+			 </a>
+			 
+			  <a href="file:///C:/Users/User/Desktop/blank/Madurai.html" class="box-link">
+			 <div class="box">
+                 <div class="place-img">
+                <img src="img/Meenakshi Amman Temple.jpg" alt="">
+                </div>
+				<div class="place-text">
+				     <h2>Madurai</h2>
+					 </div>
+					<i class='bx bxs-right-arrow-alt place-icon'></i>
+             </div>
+			 </a>
+			 
+			 <a href="file:///C:/Users/User/Desktop/blank/Tiruppur.html" class="box-link">
+			  <div class="box">
+                 <div class="place-img">
+                <img src="img/tiruppur.jpg" alt="">
+                </div>
+				<div class="place-text">
+				     <h2>Tiruppur</h2>
+					 </div>
+					<i class='bx bxs-right-arrow-alt place-icon'></i>
+             </div>
+			 </a>
+			 
+			 <a href="file:///C:/Users/User/Desktop/blank/Tirunelveli.html" class="box-link">
+			  <div class="box">
+                 <div class="place-img">
+                <img src="img/tirunelveli.jpg" alt="">
+                </div>
+				<div class="place-text">
+				     <h2>Tirunelveli</h2>
+					 </div>
+					<i class='bx bxs-right-arrow-alt place-icon'></i>
+             </div>
+			 </a>
+			 
+			 <a href="file:///C:/Users/User/Desktop/blank/Erode.html" class="box-link">
+			  <div class="box">
+                 <div class="place-img">
+                <img src="img/erode.jpg" alt="">
+                </div>
+				<div class="place-text">
+				     <h2>Erode</h2>
+					 </div>
+					<i class='bx bxs-right-arrow-alt place-icon'></i>
+             </div>
+			 </a>
+       </div>			  
+<!-- end-->
+<!--Home-->
+<!-- Transportation strat-->
+
+  <div class="cta">
+  <h3>Explore districts</h3>
+  <p>Explore districts in Tamil Nadu <br>affordably through online bus transportation.</p>
+  <a href="file:///C:/Users/User/Desktop/blank/Affortable%20Taransportation.html" class="cta-btn">Know More</a>
+
+  </div>
+
+<!-- ends -->
+
+</section>
+<!--Places img and about that "ends"-->
+
+
+<!--Vidio-->
+<section class="videos" id="videos">
+    <div class="heading">
+        <h1>Experience the breathtaking beauty of Tamil Nadu's most enchanting places.</h1>
+    </div>
+    <div class="video-container">
+        <video width="100%" height="100%" controls>
+            <!--actual URL or path of your video file -->
+            <source src="C:\Users\User\Desktop\blank\img\wh.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+<!--Vidio Ends-->  
+	
+<!--Abount-->
+<section class="about" id="about">
+      <div class="about-text">
+	    <h1>We are largest trip<br>Organizer here</h1>
+		<p>
+
+Embark on a journey of discovery with TripTraverse, where every adventure is crafted to perfection. 
+From the rugged terrains of the mountains to the serene shores of the coastline, TripTraverse takes you on a voyage of exploration and wonder.
+ With our team of experienced guides, every step of the way is filled with excitement and discovery. 
+ Whether you're seeking adrenaline-pumping thrills or tranquil moments of introspection, TripTraverse offers a personalized experience tailored to your desires.
+ Join us as we traverse the globe, uncovering hidden gems and forging unforgettable memories. 
+ With TripTraverse, the world is yours to explore. </p>
+  <a href="#" class="btn">Learn More</a>
+  </div>
+  <div class="about-img">
+     <img src="img/about.jpg" alt="">
+	 </div>
+	 </section>
+	 <!--Abount end-->
+	 
+  <!--for background color in tool bar  start-->
+ 
+<script>
+var menuIcon = document.getElementById("menu-icon");
+var navbar = document.querySelector(".navbar");
+
+menuIcon.addEventListener("click", function() {
+    navbar.classList.toggle("hidemenu");
+});
+</script>
+<!--*******************ends*************************-->
+
+
+<!--Swiper Js-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="main.js"></script>
+<script src="travel.js"></script>
+
+
+<!--Search bar start-->
+
+
+<!--  JavaScript -->
+<script>
+    var suggestions = ["Virudhunagar","Viluppuram","Vellore","TheNilgiris","Tiruvannamalai","Tirupathur", "Dindigul","Trichirappalli","Thoothukudi","Thiruvarur",
+	"Thiruvallur","Thanjavur","Tenkasi","Sivagangai","Ranipet","Theni","Ramanathapuram","Pudukottai","Perambalur","Namakkal",
+	"Kanniyakumari","Nagapattinam","Mayiladuthurai","Krishnagiri","Karur","Kancheepuram","Kallakurichi","Dharmapuri","Chengalpattu","Ariyalur",
+	"Chennai", "coimbatore", "Madurai", "Cuddalore", "Salem", "Tirunelveli", "Tiruppur", "Erode", "Kanchipuram"];
+
+    function showSuggestions(input) {
+        var matches = suggestions.filter(function(suggestion) {
+            return suggestion.toLowerCase().includes(input.toLowerCase());
+        });
+        var suggestionsList = matches.map(function(match) {
+            return "<div class='suggestion'>" + match + "</div>";
+        }).join("");
+        document.getElementById("suggestions").innerHTML = suggestionsList;
+    }
+
+    document.getElementById("searchInput").addEventListener("input", function() {
+        var inputValue = this.value;
+        if (inputValue.length > 0) {
+            showSuggestions(inputValue);
+        } else {
+            document.getElementById("suggestions").innerHTML = "";
+        }
+    });
+
+    document.getElementById("suggestions").addEventListener("click", function(e) {
+        if (e.target.classList.contains("suggestion")) {
+            document.getElementById("searchInput").value = e.target.textContent;
+            document.getElementById("suggestions").innerHTML = "";
+            redirectToPage(e.target.textContent.toLowerCase());
+        }
+    });
+
+    function redirectToPage(query) {
+        var urlMap = {
+            "chennai": "file:///C:/Users/User/Desktop/blank/Chennai.html",
+            "coimbatore": "file:///C:/Users/User/Desktop/blank/Coimbatore.html",
+            "madurai": "file:///C:/Users/User/Desktop/blank/Madurai.html",
+            "cuddalore": "file:///C:/Users/User/Desktop/blank/Cuddalore.html",
+            "salem": "file:///C:/Users/User/Desktop/blank/Salem.html",
+            "vellore": "file:///C:/Users/User/Desktop/blank/Vellore.html",
+            "tirunelveli": "file:///C:/Users/User/Desktop/blank/Tirunelveli.html",
+            "tiruppur": "file:///C:/Users/User/Desktop/blank/Tiruppur.html",
+            "erode": "file:///C:/Users/User/Desktop/blank/Erode.html",
+            "tiruvannamalai": "file:///C:/Users/User/Desktop/blank/Tiruvannamalai.html",
+            "thanjavur": "file:///C:/Users/User/Desktop/blank/Thanjavur.html",
+			"viluppuram": "file:///C:/Users/User/Desktop/blank/Viluppuram.html",
+			"virudhunagar": "file:///C:/Users/User/Desktop/blank/Virudhunagar.html",
+			"trichirappalli": "file:///C:/Users/User/Desktop/blank/Trichirappalli.html",
+			"tirupathur": "file:///C:/Users/User/Desktop/blank/Tirupathur.html",
+			"thoothukudi": "file:///C:/Users/User/Desktop/blank/Thoothukudi.html",
+			"thiruvarur": "file:///C:/Users/User/Desktop/blank/Thiruvarur.html",
+			"thiruvallur": "file:///C:/Users/User/Desktop/blank/Thiruvallur.html",
+			"theni": "file:///C:/Users/User/Desktop/blank/Theni.html",
+			"thenilgiris": "file:///C:/Users/User/Desktop/blank/TheNilgiris.html",
+			"tenkasi": "file:///C:/Users/User/Desktop/blank/Tenkasi.html",
+			"sivagangai": "file:///C:/Users/User/Desktop/blank/Sivagangai.html",
+			"ranipet": "file:///C:/Users/User/Desktop/blank/Ranipet.html",
+			"ramanathapuram": "file:///C:/Users/User/Desktop/blank/Ramanathapuram.html",
+			"pudukottai": "file:///C:/Users/User/Desktop/blank/Pudukottai.html",
+			"perambalur": "file:///C:/Users/User/Desktop/blank/Perambalur.html",
+			"namakkal": "file:///C:/Users/User/Desktop/blank/Namakkal.html",
+			"nagapattinam": "file:///C:/Users/User/Desktop/blank/Nagapattinam.html",
+			"mayiladuthurai": "file:///C:/Users/User/Desktop/blank/Mayiladuthurai.html",
+			"krishnagiri": "file:///C:/Users/User/Desktop/blank/Krishnagiri.html",
+			"karur": "file:///C:/Users/User/Desktop/blank/Karur.html",
+			"kanniyakumari": "file:///C:/Users/User/Desktop/blank/Kanniyakumari.html",
+			"kancheepuram": "file:///C:/Users/User/Desktop/blank/Kancheepuram.html",
+			"kallakurichi": "file:///C:/Users/User/Desktop/blank/Kallakurichi.html",
+			"dindigul": "file:///C:/Users/User/Desktop/blank/Dindigul.html",
+			"dharmapuri": "file:///C:/Users/User/Desktop/blank/Dharmapuri.html",
+			"coimbatore": "file:///C:/Users/User/Desktop/blank/Coimbatore.html",
+			"chengalpattu": "file:///C:/Users/User/Desktop/blank/Chengalpattu.html",
+			"ariyalur": "file:///C:/Users/User/Desktop/blank/Ariyalur.html",
+            // Add more pages here
+        };
+        
+        var redirectUrl = urlMap[query];
+        
+        if (redirectUrl) {
+            window.location.href = redirectUrl;
+        } else {
+            alert("No page found for the entered search term.");
+        }
+    }
+</script>
+
+<!-- Search bar ends -->
+
+
+ <!--  about us-->
+ 
+<footer>
+        <div class="footer_main">
+
+            <div class="footer_tag">
+                <h2>Location</h2>
+                <p>Chennai</p>
+                <p>Delhi</p>
+                <p>Selam</p>
+                <p>Coimabtore</p>
+                <p>Madurai</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+                <p>Home</p>
+                <p>Food</p>
+                <p>Hotel</p>
+                <p>About</p>
+                <p>Transportation</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+919444527788</p>
+                <p>+918838013669</p>
+                <p>triptraverse462@gmail.com</p>
+                
+            </div>
+
+        <div class="footer_tag">
+    <h2>Our Services</h2>
+            <p>Trip Traverse</p>
+            <p>Hotel</p>
+            <p>Fast Delivery</p>
+            <p>Easy Payments</p>
+            <p>24 x 7 Service</p>
+        </div>
+
+	<div class="footer_tag">
+	<h2>Follows</h2>
+    
+    <a href="https://www.facebook.com/profile.php?id=61557280876339&mibextid=ZbWKwL/"><i class="bx bxl-facebook" style="color: #1153c5;"></i></a>
+    <a href="https://youtube.com/@TripTraverse?si=Ke1Hswt_U5pcy0IX/"><i class="bx bxl-youtube" style="color: #ff1900;"></i></a>
+    <a href="https://x.com/TripTraverse?t=SpQw9lQl7YPOEHd0O2NutA&s=09/"><i class="bx bxl-twitter" style="color: #000000;"></i></a>
+    <a href="http://linkedin.com/"><i class="bx bxl-linkedin" style="color: #175cd3;"></i></a>
+    <a href="https://www.instagram.com/trip.traverse?igsh=OWIzdGFic245aWhm/"><i class="bx bxl-instagram" style="color: #d10a7e;"></i></a>
+    
+    </div>
+	
+	
+	<!-- Add a contact button -->
+<!-- Add a contact button -->
+<button id="contactButton" class="contact-button">Contact Us</button>
+
+<!-- Hidden modal for contact details -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Contact Information</h2>
+    <p>Phone: +919444527788</p>
+    <p>Email: triptraverse462@gmail.com</p>
+  </div>
+</div>
+
+
+</div>
+
+    <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> Vishal</span></p>
+
+ </footer><script>
+ 
+ contactButton.onclick = function() {
+  // Redirect to the contact page
+  window.location.href = "contect.html";
+}
+
+ </script>
+ <!--  about us end-->
+</body>
+</html>
+   
